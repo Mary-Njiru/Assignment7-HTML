@@ -1,0 +1,706 @@
+.main-header{
+    display: flex;
+}  
+.navbar {
+    display: inline;
+}
+.navbar p{
+    margin-right: 80px;
+}
+#nav-bar{
+    
+   display: flex;
+   
+   justify-content: space-between;
+
+}
+.btn1{
+    background-color: rgb(19, 178, 231);
+    color: white;
+    border-radius: 20px;
+    height: 5vh;
+    width: 10%;
+
+}
+
+.btn2{
+    background-color: rgb(4, 4, 131);
+    color: white;
+    border-radius: 20px;
+    height: 4vh;
+    width: 22%;
+}
+span{
+    color: rgb(19, 178, 231);
+    font-style: italic;
+}
+#Landing-page{
+    font-size: 200%;
+    text-align: center;
+}
+
+.Image2{
+    width: 100%;
+    border-radius: 3opx;
+    overflow: hidden;
+}
+#Reviews{
+    display: flex;
+    font-size: 150%;
+    text-align: center;
+    gap: 5%;
+    justify-content: center;
+}
+#Webpage1{
+    margin-right: 10%;
+    text-align: center;
+}
+#Words1{
+    text-align: center;
+    font-size: 150%;
+}
+#Properties-landingpage{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+.Image11{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+#Webpage2{
+   text-align: center; 
+   display: flex;
+   justify-content: space-evenly;
+}
+#Properties-advert{
+    font-size: 150%;
+}
+.btn3{
+    background-color: rgb(245, 209, 214);
+    color: black;
+    border-radius: 20px;
+    height: 4vh;
+    width: 50%;
+}
+.btn4{
+    background-color: rgb(19, 178, 231);
+    color: white;
+    border-radius: 20px;
+    height: 5vh;
+    width: 30%;
+
+}
+.Image8{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+}
+#House-deals{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+#HomePro-Staff{
+    text-align: center;
+}
+#HomePro-Images{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.Image10{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+#Numbers{
+    display: flex;
+    font-size: 100%;
+    justify-content: center;
+    gap: 10%;
+    
+}
+#Team{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.Image9{
+    border-radius: 5%;
+    width: 250px;
+    height: 300px;
+}
+input{
+    border-radius: 20px;
+    height: 4vh;
+    width: 150%; 
+ 
+}
+.btn5{
+    background-color: rgb(4, 4, 131);
+    color: white;
+    border-radius: 20px;
+    height: 4vh;
+    width: 120%; 
+}
+#Webpage3{
+    text-align: center;
+}
+#Pair-buttons{
+    display: flex;
+    justify-content: center;
+}
+#Webpage4{
+    display: flex;
+    gap: 10%;
+}
+.Image12{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+
+/* media query for responsiveness*/
+@media screen and (max-width:480px){
+    .main-header{
+        display: flex;
+    }
+    .Image1{
+        width: 20%;
+        height: 20%;
+    }  
+    .navbar {
+        display: inline;
+    }
+    .navbar p{
+        margin-right: 80px;
+    }
+    #nav-bar{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+    }
+    .btn1{
+        background-color: rgb(19, 178, 231);
+        color: white;
+        border-radius: 20px;
+        height: 5vh;
+        width: 50%;
+    }
+    
+    .btn2{
+        background-color: rgb(4, 4, 131);
+        color: white;
+        border-radius: 20px;
+        height: 4vh;
+        width: 100%;
+    }
+    span{
+        color: rgb(19, 178, 231);
+        font-style: italic;
+    }
+    #Landing-page{
+        font-size: 40%;
+        text-align: center;
+    }
+    
+    .Image2{
+        width: 100%;
+        border-radius: 3opx;
+        overflow: hidden;
+    }
+    #Reviews{
+        display: flex;
+        font-size: 80%;
+        text-align: center;
+        gap: 5%;
+        justify-content: center;
+    }
+    #Webpage1{
+        margin-right: 10%;
+        text-align: center;
+    }
+    #Words1{
+        text-align: center;
+        font-size: 80%;
+    }
+    #Properties-landingpage{
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Image11{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    #Webpage2{
+       text-align: center; 
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+    }
+    .Image3{
+        width: 200px;
+        height: 200px;
+    }
+    .Image4{
+        width: 200px;
+        height: 200px;
+    }
+    #Properties-advert{
+        font-size: 80%;
+    }
+    .btn3{
+        background-color: rgb(245, 209, 214);
+        color: black;
+        border-radius: 20px;
+        height: 4vh;
+        width: 70%;
+    }
+    .btn4{
+        background-color: rgb(19, 178, 231);
+        color: white;
+        border-radius: 20px;
+        height: 5vh;
+        width: 30%;
+    
+    }
+    .Image8{
+        width: 300px;
+        height: 300px;
+        border-radius: 40px;
+    }
+    #House-deals{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        flex-direction: column;
+    }
+    #HomePro-Staff{
+        text-align: center;
+    }
+    #HomePro-Images{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+        flex-direction: column;
+    }
+    .Image10{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    #Numbers{
+        display: flex;
+        font-size: 70%;
+        justify-content: center;
+        gap: 1%;
+        flex-direction: column;
+        
+    }
+    #Team{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        flex-direction: column;
+    }
+    .Image9{
+        border-radius: 5%;
+        width: 250px;
+        height: 250px;
+    }
+    input{
+        border-radius: 20px;
+        height: 4vh;
+        width: 150%; 
+     
+    }
+    .btn5{
+        background-color: rgb(4, 4, 131);
+        color: white;
+        border-radius: 20px;
+        height: 4vh;
+        width: 120%; 
+    }
+    #Webpage3{
+        text-align: center;
+    }
+    #Pair-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #Webpage4{
+        display: flex;
+        gap: 2%;
+        flex-direction: column;
+    }
+    .Image12{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+ 
+}
+
+@media screen and (max-width:768px){
+    .main-header{
+        display: flex;
+    }
+    .Image1{
+        width: 20%;
+        height: 20%;
+    }  
+    .navbar {
+        display: inline;
+    }
+    .navbar p{
+        margin-right: 80px;
+    }
+    #nav-bar{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+    }
+    .btn1{
+        background-color: rgb(19, 178, 231);
+        color: white;
+        border-radius: 20px;
+        height: 5vh;
+        width: 20%;
+    }
+    
+    .btn2{
+        background-color: rgb(4, 4, 131);
+        color: white;
+        border-radius: 20px;
+        height: 4vh;
+        width: 50%;
+    }
+    span{
+        color: rgb(19, 178, 231);
+        font-style: italic;
+    }
+    #Landing-page{
+        font-size: 60%;
+        text-align: center;
+    }
+    
+    .Image2{
+        width: 100%;
+        border-radius: 3opx;
+        overflow: hidden;
+    }
+    #Reviews{
+        display: flex;
+        font-size: 100%;
+        text-align: center;
+        gap: 5%;
+        justify-content: center;
+    }
+    #Webpage1{
+        margin-right: 10%;
+        text-align: center;
+    }
+    #Words1{
+        text-align: center;
+        font-size: 100%;
+    }
+    #Properties-landingpage{
+        display: flex;
+        gap: 1%;
+        justify-content: center;
+    }
+    .Image11{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    #Webpage2{
+       text-align: center; 
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .Image3{
+        width: 350px;
+        height: 350px;
+    }
+    .Image4{
+        width: 350px;
+        height: 350px;
+    }
+    #Properties-advert{
+        font-size: 150%;
+    }
+    .btn3{
+        background-color: rgb(245, 209, 214);
+        color: black;
+        border-radius: 20px;
+        height: 4vh;
+        width: 50%;
+    }
+    .btn4{
+        background-color: rgb(19, 178, 231);
+        color: white;
+        border-radius: 20px;
+        height: 5vh;
+        width: 30%;
+    
+    }
+    .Image8{
+        width: 500px;
+        height: 500px;
+        border-radius: 40px;
+    }
+    #House-deals{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        flex-direction: column;
+    }
+    #HomePro-Staff{
+        text-align: center;
+    }
+    #HomePro-Images{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+    }
+    .Image10{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    #Numbers{
+        display: flex;
+        font-size: 70%;
+        justify-content: center;
+        gap: 1%;
+     }
+    #Team{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+    }
+    .Image9{
+        border-radius: 5%;
+        width: 250px;
+        height: 250px;
+    }
+    input{
+        border-radius: 20px;
+        height: 4vh;
+        width: 150%; 
+     
+    }
+    .btn5{
+        background-color: rgb(4, 4, 131);
+        color: white;
+        border-radius: 20px;
+        height: 4vh;
+        width: 120%; 
+    }
+    #Webpage3{
+        text-align: center;
+    }
+    #Pair-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #Webpage4{
+        display: flex;
+        gap: 2%;
+    }
+    .Image12{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+ 
+}
+
+@media screen and (max-width:1024px){
+    .main-header{
+        display: flex;
+    }
+    .Image1{
+        width: 20%;
+        height: 20%;
+    }  
+    .navbar {
+        display: inline;
+    }
+    .navbar p{
+        margin-right: 80px;
+    }
+    #nav-bar{
+       display: flex;
+       justify-content: space-between;
+    }
+    .btn1{
+        background-color: rgb(19, 178, 231);
+        color: white;
+        border-radius: 20px;
+        height: 5vh;
+        width: 20%;
+    }
+    
+    .btn2{
+        background-color: rgb(4, 4, 131);
+        color: white;
+        border-radius: 20px;
+        height: 4vh;
+        width: 50%;
+    }
+    span{
+        color: rgb(19, 178, 231);
+        font-style: italic;
+    }
+    #Landing-page{
+        font-size: 60%;
+        text-align: center;
+    }
+    
+    .Image2{
+        width: 100%;
+        border-radius: 3opx;
+        overflow: hidden;
+    }
+    #Reviews{
+        display: flex;
+        font-size: 150%;
+        text-align: center;
+        gap: 5%;
+        justify-content: center;
+    }
+    #Webpage1{
+        margin-right: 10%;
+        text-align: center;
+    }
+    #Words1{
+        text-align: center;
+        font-size: 150%;
+    }
+    #Properties-landingpage{
+        display: flex;
+        gap: 1%;
+        justify-content: center;
+    }
+    .Image11{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    #Webpage2{
+       text-align: center; 
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .Image3{
+        width: 400px;
+        height: 400px;
+    }
+    .Image4{
+        width: 400px;
+        height: 400px;
+    }
+    #Properties-advert{
+        font-size: 200%;
+    }
+    .btn3{
+        background-color: rgb(245, 209, 214);
+        color: black;
+        border-radius: 20px;
+        height: 4vh;
+        width: 50%;
+    }
+    .btn4{
+        background-color: rgb(19, 178, 231);
+        color: white;
+        border-radius: 20px;
+        height: 5vh;
+        width: 30%;
+    
+    }
+    .Image8{
+        width: 800px;
+        height: 800px;
+        border-radius: 40px;
+    }
+    #House-deals{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        flex-direction: column;
+        font-size: 180%;
+    }
+    #HomePro-Staff{
+        text-align: center;
+        font-size: 150%;
+    }
+    #HomePro-Images{
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+    }
+    .Image10{
+        width: 280px;
+        height: 280px;
+        border-radius: 20px;
+    }
+    #Numbers{
+        display: flex;
+        font-size: 150%;
+        justify-content: center;
+        gap: 2%;
+     }
+    #Team{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        font-size: 150%;
+    }
+    .Image9{
+        border-radius: 5%;
+        width: 350px;
+        height: 350px;
+    }
+    input{
+        border-radius: 20px;
+        height: 4vh;
+        width: 160%; 
+     
+    }
+    .btn5{
+        background-color: rgb(4, 4, 131);
+        color: white;
+        border-radius: 20px;
+        height: 4vh;
+        width: 150%; 
+    }
+    #Webpage3{
+        text-align: center;
+        font-size: 150%;
+    }
+    #Pair-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #Webpage4{
+        display: flex;
+        gap: 8%;
+    }
+    .Image12{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+}
+
+
+
